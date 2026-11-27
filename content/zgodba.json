@@ -1,0 +1,34 @@
+{
+  "naslov": "Padci te oblikujejo",
+  "slika": "img/ph-zgodba.webp",
+  "portret": "img/portrait.webp",
+  "portret_avtor": "LD Photo",
+  "poglavja": [
+    {
+      "oznaka": "15 let nogometa",
+      "naslov": "Začetek",
+      "besedilo": "Šport je že od nekdaj pomemben del mojega življenja. Čeprav sem danes profesionalni triatlonec, se moja športna pot ni začela v bazenu ali na kolesu, temveč na nogometnem igrišču. Kar 15 let sem treniral nogomet, ki me je naučil discipline, vztrajnosti in tekmovalnosti. Že kot otrok sem kazal precejšen talent za vzdržljivostne športe, vendar takrat še nisem vedel, kam me bo športna pot pripeljala.\n\nPomembno vlogo so imeli tudi moji starši, ki so me od nekdaj spodbujali in podpirali pri športnih izzivih. Njuna podpora mi je omogočila, da sem lahko sledil svojim ciljem in postopoma gradil svojo kariero. Brez njiju zagotovo ne bi bil tam, kjer sem danes."
+    },
+    {
+      "oznaka": "2020 – 2024",
+      "naslov": "Od nogometa do triatlona",
+      "besedilo": "Prelomnica je prišla med epidemijo covida-19, ko sem zaključil nogometno poglavje in začel iskati nove izzive. S prijateljem sva se prijavila na svojo prvo triatlonsko tekmo, sprva brez večjih pričakovanj. Rezultati so bili presenetljivo dobri, motivacija je rasla in triatlon je postopoma postal veliko več kot le nov hobi.\n\nLeta 2023 sem v Poreču dosegel svojo prvo triatlonsko zmago in osvojil naslov članskega državnega prvaka v srednjem triatlonu. Že leto pozneje sem naredil naslednji korak ter začel tekmovati v profesionalni konkurenci.\n\nVzporedno s športno potjo sem zaključil študij kineziologije na Fakulteti za šport v Ljubljani, nato pa v švedskem Örebru nadaljeval magistrski študij fiziologije napora, ki sem ga zaključil leta 2025. Življenje in študij v tujini sta mi prinesla veliko novega znanja, samostojnosti in širši pogled na šport. Še danes pri treningu čim bolj povezujem znanstvena spoznanja s praktičnimi izkušnjami."
+    },
+    {
+      "oznaka": "2025 – 2026",
+      "naslov": "Ko pot ne gre po načrtih",
+      "besedilo": "Moja profesionalna pot ni bila vedno enostavna. Zaradi dolgotrajnih težav z zadnjo stegensko mišico sem izgubil približno leto in pol treninga. Ko sem se končno približeval vrnitvi, sem na Maratonu Franja doživel še padec in zlom roke.\n\nV tem obdobju sem večkrat podvomil o svoji prihodnosti v triatlonu in resno razmišljal o zaključku kariere. Kljub številnim neuspelim poskusom vrnitve sem se vedno znova vračal k misli, da v tem športu še nisem pokazal vsega, česar sem sposoben.\n\nTe izkušnje so me naučile potrpežljivosti, vztrajnosti in zaupanja v proces. Napredek ni vedno linearen, in včasih so prav najtežja obdobja tista, iz katerih se največ naučimo."
+    },
+    {
+      "oznaka": "Oktober 2026",
+      "naslov": "Zmaga za nov začetek",
+      "besedilo": "Na tekmi Challenge Peguera-Mallorca sem dosegel svojo prvo profesionalno zmago. Srednjo triatlonsko razdaljo sem zaključil v času 3:42:38.\n\nTa zmaga je prišla po skoraj dveh letih poškodb, dvomov in vztrajnega iskanja poti nazaj. Bila je potrditev, da je bilo vredno vztrajati, in mi dala nov zagon za nadaljevanje profesionalne poti.\n\nMoji cilji ostajajo visoki. Želim tekmovati z najboljšimi triatlonci in nekoč nastopiti na svetovnem prvenstvu Ironman 70.3. Predvsem pa želim ostati zdrav, uživati v procesu in vsak dan narediti nekaj, kar me približa ciljem. Moja zgodba še zdaleč ni zaključena."
+    }
+  ],
+  "razdalja": {
+    "plavanje": "1,9 km",
+    "kolo": "90 km",
+    "tek": "21,1 km",
+    "cas": "3:42:38"
+  }
+}

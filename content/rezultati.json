@@ -1,0 +1,153 @@
+{
+  "naslov": "Profesionalne tekme",
+  "profesionalne": [
+    {
+      "datum": "17. 10. 2026",
+      "tekma": "Challenge Peguera-Mallorca",
+      "mesto": "1",
+      "cas": "3:42:38",
+      "plavanje": "26:14",
+      "kolo": "2:02:24",
+      "tek": "1:10:20"
+    },
+    {
+      "datum": "20. 9. 2026",
+      "tekma": "Ironman 70.3 Emilia-Romagna",
+      "mesto": "11",
+      "cas": "3:53:29",
+      "plavanje": "24:27",
+      "kolo": "2:04:39",
+      "tek": "1:17:04"
+    },
+    {
+      "datum": "19. 10. 2024",
+      "tekma": "Challenge Peguera-Mallorca",
+      "mesto": "16",
+      "cas": "3:49:13",
+      "plavanje": "24:42",
+      "kolo": "2:06:42",
+      "tek": "1:14:45"
+    },
+    {
+      "datum": "31. 8. 2024",
+      "tekma": "Austria Triathlon Half",
+      "mesto": "5",
+      "cas": "3:53:28",
+      "plavanje": "25:37",
+      "kolo": "2:00:34",
+      "tek": "1:24:12"
+    },
+    {
+      "datum": "23. 6. 2024",
+      "tekma": "Challenge Walchsee",
+      "mesto": "16",
+      "cas": "3:54:56",
+      "plavanje": "25:25",
+      "kolo": "2:11:10",
+      "tek": "1:13:13"
+    },
+    {
+      "datum": "26. 5. 2024",
+      "tekma": "Challenge St. Pölten",
+      "mesto": "15",
+      "cas": "4:06:26",
+      "plavanje": "26:54",
+      "kolo": "2:17:17",
+      "tek": "1:15:31"
+    }
+  ],
+  "drzavna_naslov": "Državna prvenstva in druge tekme",
+  "drzavna": [
+    {
+      "datum": "22. 8. 2026",
+      "tekma": "DP v sprint triatlonu, Kočevje",
+      "opomba": "",
+      "mesto": "3",
+      "cas": "56:54"
+    },
+    {
+      "datum": "19. 4. 2026",
+      "tekma": "DP v sprint duatlonu, Komenda",
+      "opomba": "",
+      "mesto": "2",
+      "cas": "51:05"
+    },
+    {
+      "datum": "5. 10. 2024",
+      "tekma": "DP v srednjem triatlonu, Zadarhalf",
+      "opomba": "državni prvak",
+      "mesto": "1",
+      "cas": "3:35:18"
+    },
+    {
+      "datum": "7. 9. 2024",
+      "tekma": "DP v standardnem triatlonu, Bled",
+      "opomba": "državni prvak (2. absolutno)",
+      "mesto": "1",
+      "cas": "2:02:02"
+    },
+    {
+      "datum": "24. 8. 2024",
+      "tekma": "Triatlon Kočevje (sprint)",
+      "opomba": "",
+      "mesto": "1",
+      "cas": "59:32"
+    },
+    {
+      "datum": "15. 10. 2023",
+      "tekma": "Ironman 70.3 Poreč",
+      "opomba": "1. absolutno",
+      "mesto": "1",
+      "cas": "3:59:07"
+    },
+    {
+      "datum": "19. 8. 2023",
+      "tekma": "DP v sprint triatlonu, Kočevje",
+      "opomba": "",
+      "mesto": "4",
+      "cas": "57:54"
+    },
+    {
+      "datum": "3. 9. 2022",
+      "tekma": "DP v standardnem triatlonu, Bled",
+      "opomba": "",
+      "mesto": "9",
+      "cas": "2:08:34"
+    }
+  ],
+  "sezona_naslov": "Sezona 2027",
+  "prihajajoce": [
+    {
+      "serija": "Ironman 70.3",
+      "tekma": "Vilamoura-Algarve",
+      "datum": ""
+    },
+    {
+      "serija": "Ironman 70.3",
+      "tekma": "St. Pölten",
+      "datum": ""
+    },
+    {
+      "serija": "T100 Challenger",
+      "tekma": "Kaiserwinkl Walchsee",
+      "datum": ""
+    },
+    {
+      "serija": "Ironman 70.3 Pro Series",
+      "tekma": "Jönköping",
+      "datum": ""
+    },
+    {
+      "serija": "Ironman 70.3",
+      "tekma": "Zell am See",
+      "datum": ""
+    },
+    {
+      "serija": "T100 Challenger",
+      "tekma": "Peguera-Mallorca",
+      "datum": ""
+    }
+  ],
+  "opomba": "Datumi tekem bodo dodani, ko bo koledar potrjen.",
+  "slika": "img/ph-rezultati.webp"
+}

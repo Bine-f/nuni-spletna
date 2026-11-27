@@ -1,0 +1,184 @@
+# Nastavitve urejevalnika Pages CMS (https://pagescms.org).
+# Vsaka postavka spodaj je ena stran v urejevalniku.
+media:
+  input: static/img
+  output: img
+
+content:
+  - name: domov
+    label: Domov
+    type: file
+    path: content/domov.json
+    fields:
+      - { name: vloga, label: Vloga pod imenom, type: string }
+      - { name: ime, label: Ime in priimek, type: string }
+      - { name: moto_1, label: Moto (prvi del), type: string }
+      - { name: moto_2, label: Moto (drugi del, oranžno), type: string }
+      - { name: slika, label: Glavna fotografija, type: image }
+      - name: zadnji_rezultat
+        label: Zadnji rezultat
+        type: object
+        fields:
+          - { name: mesto, label: Mesto (samo številka), type: string }
+          - { name: datum, label: Datum, type: string }
+          - { name: naslov, label: Naslov, type: string }
+          - { name: opis, label: Kratek opis, type: string }
+          - { name: plavanje, label: Plavanje, type: string }
+          - { name: kolo, label: Kolo, type: string }
+          - { name: tek, label: Tek, type: string }
+      - { name: uvod_naslov, label: Naslov uvoda, type: string }
+      - { name: uvod, label: Uvodno besedilo, type: text }
+      - name: kartica_zgodba
+        label: Kartica Moja zgodba
+        type: object
+        fields:
+          - { name: slika, label: Slika, type: image }
+          - { name: besedilo, label: Besedilo, type: text }
+      - name: kartica_rezultati
+        label: Kartica Rezultati
+        type: object
+        fields:
+          - { name: slika, label: Slika, type: image }
+          - { name: besedilo, label: Besedilo, type: text }
+      - name: kartica_trenerstvo
+        label: Kartica Trenerstvo
+        type: object
+        fields:
+          - { name: slika, label: Slika, type: image }
+          - { name: besedilo, label: Besedilo, type: text }
+      - { name: pasica, label: Naslov pasice za partnerje, type: string }
+
+  - name: zgodba
+    label: Moja zgodba
+    type: file
+    path: content/zgodba.json
+    fields:
+      - { name: naslov, label: Naslov strani, type: string }
+      - { name: slika, label: Naslovna fotografija, type: image }
+      - { name: portret, label: Portret, type: image }
+      - { name: portret_avtor, label: Avtor portreta, type: string }
+      - name: poglavja
+        label: Poglavja
+        type: object
+        list: true
+        fields:
+          - { name: oznaka, label: Oznaka (npr. leta), type: string }
+          - { name: naslov, label: Naslov poglavja, type: string }
+          - { name: besedilo, label: Besedilo (odstavke loči s prazno vrstico), type: text }
+      - name: razdalja
+        label: Okvirček z razdaljo (pod zadnjim poglavjem)
+        type: object
+        fields:
+          - { name: plavanje, label: Plavanje, type: string }
+          - { name: kolo, label: Kolo, type: string }
+          - { name: tek, label: Tek, type: string }
+          - { name: cas, label: Čas, type: string }
+
+  - name: rezultati
+    label: Rezultati
+    type: file
+    path: content/rezultati.json
+    fields:
+      - { name: naslov, label: Naslov strani, type: string }
+      - { name: slika, label: Naslovna fotografija, type: image }
+      - name: profesionalne
+        label: Profesionalne tekme (najnovejša na vrhu)
+        type: object
+        list: true
+        fields:
+          - { name: datum, label: Datum, type: string }
+          - { name: tekma, label: Tekma, type: string }
+          - { name: mesto, label: Mesto (samo številka), type: string }
+          - { name: cas, label: Končni čas, type: string }
+          - { name: plavanje, label: Plavanje, type: string }
+          - { name: kolo, label: Kolo, type: string }
+          - { name: tek, label: Tek, type: string }
+      - { name: drzavna_naslov, label: Naslov druge tabele, type: string }
+      - name: drzavna
+        label: Državna prvenstva in druge tekme
+        type: object
+        list: true
+        fields:
+          - { name: datum, label: Datum, type: string }
+          - { name: tekma, label: Tekma, type: string }
+          - { name: opomba, label: Opomba (npr. državni prvak), type: string }
+          - { name: mesto, label: Mesto (samo številka), type: string }
+          - { name: cas, label: Čas, type: string }
+      - { name: sezona_naslov, label: Naslov prihajajočih tekem, type: string }
+      - name: prihajajoce
+        label: Prihajajoče tekme
+        type: object
+        list: true
+        fields:
+          - { name: serija, label: Serija (npr. Ironman 70.3), type: string }
+          - { name: tekma, label: Tekma, type: string }
+          - { name: datum, label: Datum, type: string }
+      - { name: opomba, label: Opomba pod tekmami, type: string }
+
+  - name: trenerstvo
+    label: Trenerstvo
+    type: file
+    path: content/trenerstvo.json
+    fields:
+      - { name: naslov, label: Naslov strani, type: string }
+      - { name: slika, label: Naslovna fotografija, type: image }
+      - { name: podnaslov, label: Podnaslov, type: string }
+      - { name: besedilo, label: Besedilo (odstavke loči s prazno vrstico), type: text }
+      - name: stebri
+        label: Poudarki
+        type: object
+        list: true
+        fields:
+          - { name: naslov, label: Naslov, type: string }
+          - { name: besedilo, label: Besedilo, type: string }
+      - { name: slika_ob_besedilu, label: Slika ob besedilu, type: image }
+      - { name: paketi_naslov, label: Paketi in cene (naslov), type: string }
+      - { name: paketi_besedilo, label: Paketi in cene (besedilo), type: text }
+
+  - name: partnerji
+    label: Partnerji
+    type: file
+    path: content/partnerji.json
+    fields:
+      - { name: naslov, label: Naslov strani, type: string }
+      - { name: slika, label: Naslovna fotografija, type: image }
+      - { name: besedilo, label: Besedilo (odstavke loči s prazno vrstico), type: text }
+      - { name: poziv, label: Poziv ob gumbu, type: text }
+      - name: partnerji
+        label: Partnerji (logotipi)
+        type: object
+        list: true
+        fields:
+          - { name: ime, label: Ime podjetja, type: string }
+          - { name: logo, label: Logotip, type: image }
+          - { name: povezava, label: Spletna stran podjetja, type: string }
+      - { name: prazno, label: Besedilo, ko še ni partnerjev, type: string }
+
+  - name: galerija
+    label: Galerija
+    type: file
+    path: content/galerija.json
+    fields:
+      - { name: naslov, label: Naslov strani, type: string }
+      - { name: slika, label: Naslovna fotografija, type: image }
+      - name: slike
+        label: Fotografije
+        type: object
+        list: true
+        fields:
+          - { name: slika, label: Fotografija, type: image }
+          - { name: opis, label: Kratek opis, type: string }
+      - { name: avtorji, label: Avtorji fotografij, type: string }
+
+  - name: kontakt
+    label: Kontakt
+    type: file
+    path: content/kontakt.json
+    fields:
+      - { name: naslov, label: Naslov strani, type: string }
+      - { name: slika, label: Naslovna fotografija, type: image }
+      - { name: email, label: E-pošta, type: string }
+      - { name: telefon, label: Telefon, type: string }
+      - { name: instagram, label: Instagram (povezava), type: string }
+      - { name: strava, label: Strava (povezava), type: string }
+      - { name: web3forms_kljuc, label: Web3Forms ključ za obrazec, type: string }

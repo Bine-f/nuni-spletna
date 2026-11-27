@@ -1,0 +1,75 @@
+{
+  "naslov": "S tekem in treningov",
+  "slika": "img/ph-galerija.webp",
+  "slike": [
+    {
+      "slika": "img/g1.webp",
+      "opis": "Kronometer pod zasneženimi gorami"
+    },
+    {
+      "slika": "img/podium.webp",
+      "opis": "Na odru zmagovalcev v Peguera"
+    },
+    {
+      "slika": "img/g4.webp",
+      "opis": "Ironman 70.3 Poreč, kolo"
+    },
+    {
+      "slika": "img/g2.webp",
+      "opis": "Trening med borovci"
+    },
+    {
+      "slika": "img/g6.webp",
+      "opis": "Challenge Walchsee"
+    },
+    {
+      "slika": "img/g5.webp",
+      "opis": "Silhueta ob sončnem zahodu"
+    },
+    {
+      "slika": "img/g3.webp",
+      "opis": "Ob kolesu na travniku"
+    },
+    {
+      "slika": "img/g8.webp",
+      "opis": "Cilj Ironman 70.3 Poreč"
+    },
+    {
+      "slika": "img/g12.webp",
+      "opis": "Trening v gozdu ob svitu"
+    },
+    {
+      "slika": "img/g9.webp",
+      "opis": "Portret s čelado"
+    },
+    {
+      "slika": "img/g13.webp",
+      "opis": "Peguera, kolesarski del"
+    },
+    {
+      "slika": "img/g11.webp",
+      "opis": "Objem po zmagi"
+    },
+    {
+      "slika": "img/g14.webp",
+      "opis": "Večerni trening"
+    },
+    {
+      "slika": "img/g10.webp",
+      "opis": "Vzpon pod gorami"
+    },
+    {
+      "slika": "img/g16.webp",
+      "opis": "Portret"
+    },
+    {
+      "slika": "img/g17.webp",
+      "opis": "Na gozdni cesti"
+    },
+    {
+      "slika": "img/g18.webp",
+      "opis": "Peguera, tek"
+    }
+  ],
+  "avtorji": "Foto: LD Photo, JL Hourcade in drugi."
+}

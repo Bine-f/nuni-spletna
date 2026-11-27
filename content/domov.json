@@ -1,0 +1,31 @@
+{
+  "vloga": "Profesionalni triatlonec · Trener",
+  "ime": "Matevž Nunar",
+  "moto_1": "Padci te oblikujejo.",
+  "moto_2": "Vztrajnost te pripelje do cilja.",
+  "slika": "img/hero.webp",
+  "zadnji_rezultat": {
+    "mesto": "1",
+    "datum": "17. 10. 2026",
+    "naslov": "Prva profesionalna zmaga: Challenge Peguera-Mallorca",
+    "opis": "Srednja razdalja, profesionalna konkurenca, končni čas 3:42:38",
+    "plavanje": "26:14",
+    "kolo": "2:02:24",
+    "tek": "1:10:20"
+  },
+  "uvod_naslov": "Od nogometnega igrišča do profesionalnih tekem",
+  "uvod": "Na tej poti je več preizkušenj kot ciljnih črt. Vsak dan združujem trdo delo, disciplino in strokovnost. Kar sem se naučil na lastni koži, delim tudi z drugimi, da prestopijo svoje meje.",
+  "kartica_zgodba": {
+    "slika": "img/t-zgodba.webp",
+    "besedilo": "Petnajst let nogometa, prvi triatlon med epidemijo, poškodbe in vrnitev do prve profesionalne zmage."
+  },
+  "kartica_rezultati": {
+    "slika": "img/t-rez.webp",
+    "besedilo": "Profesionalne tekme, državni naslovi in tekme, ki prihajajo v sezoni 2027."
+  },
+  "kartica_trenerstvo": {
+    "slika": "img/t-trener.webp",
+    "besedilo": "Individualni načrti treninga, ki povezujejo fiziologijo napora in izkušnje s profesionalnih tekem."
+  },
+  "pasica": "Skupaj gradimo zgodbo o uspehu"
+}

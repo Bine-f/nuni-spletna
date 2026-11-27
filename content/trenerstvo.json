@@ -1,0 +1,23 @@
+{
+  "naslov": "Trening, ki ima namen",
+  "slika": "img/ph-trener.webp",
+  "podnaslov": "Moj pristop",
+  "besedilo": "Svoje znanje iz profesionalnega triatlona in magistrskega študija fiziologije napora prenašam na športnike, ki želijo napredovati premišljeno in dolgoročno.\n\nKakovosten trening ni nujno najtežji trening, temveč tisti, ki je izveden ob pravem času in ima svoj namen.",
+  "stebri": [
+    {
+      "naslov": "Individualno",
+      "besedilo": "Načrt prilagodim tvojemu ozadju, sposobnostim, ciljem in življenjskemu slogu."
+    },
+    {
+      "naslov": "Postopno",
+      "besedilo": "Premišljena razporeditev obremenitev, napredovanje in regeneracija."
+    },
+    {
+      "naslov": "Spremljano",
+      "besedilo": "Redno spremljanje treninga in jasne usmeritve skozi celoten proces."
+    }
+  ],
+  "slika_ob_besedilu": "img/coach.webp",
+  "paketi_naslov": "Kmalu",
+  "paketi_besedilo": "Pakete trenerstva dodamo v naslednji verziji. Do takrat mi piši, pa se pogovoriva o tvojih ciljih."
+}
