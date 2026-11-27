@@ -1,0 +1,12 @@
+// Nastavitve za Cloudflare (Workers z statičnimi datotekami).
+// Ob vsakem "wrangler deploy" se najprej zažene build.py, nato se objavi mapa dist.
+{
+  "name": "nuni-spletna",
+  "compatibility_date": "2026-11-01",
+  "build": {
+    "command": "python3 build.py || python build.py"
+  },
+  "assets": {
+    "directory": "./dist"
+  }
+}
